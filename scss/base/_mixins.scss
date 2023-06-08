@@ -1,0 +1,27 @@
+@mixin fontSize{
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+@mixin decor{
+        position: absolute;
+        font-family: $font-title;
+        font-size: 95px;
+        line-height: 55px;
+        color: #e8e8e8; 
+        left: -70px;
+        bottom: 8px;
+        z-index: -1;
+}
+
+@mixin mediaTablet{
+    @media screen and (max-width: $tablet){
+        @content
+    }
+};
+
+@mixin mediaImg{
+    @media screen and (max-width: $img){
+        @content
+    }
+}

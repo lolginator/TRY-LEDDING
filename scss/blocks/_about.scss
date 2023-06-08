@@ -1,0 +1,28 @@
+.about{
+    letter-spacing: 0.5px;
+}
+
+.about__header{
+    text-align: center;
+}
+
+.about__title{
+    font-family: $font-title;
+    font-size: 40px;
+    font-weight: 700;
+    color: $title-color;
+}
+
+.about__text{
+    color: #424545;
+    margin: 14px 0px 74px 0px;
+}
+
+.about__objects{
+    display: grid;
+    row-gap: 80px;
+
+    @include mediaTablet(){
+       text-align: center;
+      }
+}

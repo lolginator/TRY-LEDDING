@@ -1,0 +1,14 @@
+.menu__list{
+    display: flex;
+    column-gap: 48px;
+
+
+
+    @include mediaTablet(){
+        display: none;
+     }
+}
+
+.menu__item{
+    font-size: 24px;
+}
